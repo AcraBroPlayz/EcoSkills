@@ -33,6 +33,7 @@ public class Stats {
     public static final Stat WISDOM = new StatWisdom();
     public static final Stat FEROCITY = new StatFerocity();
     public static final Stat HEALTH = new StatHealth();
+    public static final Stat MANA = new statMana();
 
     @ApiStatus.Internal
     public static void registerNewStat(@NotNull final Stat skill) {
